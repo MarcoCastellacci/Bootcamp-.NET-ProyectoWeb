@@ -1,0 +1,28 @@
+﻿@using CodigoComun.Entities;
+@using CodigoComun.Modelos.DTO;
+
+@model ProfesorDTO
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    string saludo = "Hola esto es una Variable";
+}
+
+<div class="prueba">
+    <h1>Esto es una Prueba @saludo </h1>
+    <h3>Hoy es: @DateTime.Now </h3>
+
+    <br />
+    <div class="datos">
+        <p>Datos del Profesor</p>
+        <br />
+        <P>Nombre: @Model.Nombre</P>
+        <br />
+        <P>Apellido: @Model.Apellido</P>
+        <br />
+        <P>Id: @Model.Id</P>
+    </div>
+
+</div>

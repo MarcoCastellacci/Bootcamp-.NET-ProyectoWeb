@@ -1,0 +1,60 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.prueba {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+}
+
+.prueba h1, h3 {
+    width: 100%;
+
+}
+
+.datos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.datos p {
+    width: 100%;
+
+}
+
+.titulo {
+    text-align:center;
+}
+
+.boton-back {
+    margin: 2rem;
+}
+
+.btn-add {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 148, 255);
+    color: rgb(0, 0, 0);
+    border: .2rem solid rgb(0, 13, 255);
+}
